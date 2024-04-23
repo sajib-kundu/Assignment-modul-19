@@ -1,0 +1,139 @@
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 100%;
+    background-color: #F1F2F7;
+    padding-top: 20px;
+}
+
+
+.sidebar-header {
+    padding: 10px 20px; /* Add padding to the header */
+    font-size: 1.5em; /* Set font size */
+    font-weight: bold; /* Set font weight */
+    border-bottom: 1px solid #666; /* Add a border bottom */
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-items {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+/*.sidebar-menu li {*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*.sidebar-menu li a {*/
+/*    color: #fff;*/
+/*    text-decoration: none;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    padding: 10px;*/
+/*    transition: all 0.3s ease;*/
+/*}*/
+
+span {
+    color: #707FDD;
+}
+
+.btn:hover {
+    /* Change background color on hover */
+    background-color: #707FDD;
+;
+}
+
+/*.sidebar-menu link:hover {*/
+/*    background-color: #555;*/
+/*}*/
+
+/*.link:hover {*/
+/*    color: red; !* Change color on hover *!*/
+/*}*/
+.sidebar-menu li a svg {
+    margin-right: 10px;
+}
+
+.sidebar {
+
+    float: left; /* or use flexbox or grid for more advanced layouts */
+    width: 20% ; /* adjust the width as needed */
+    /* Add any other styling properties */
+
+}
+
+.main-content {
+    /*display: flex;*/
+    float: left; /* or use flexbox or grid for more advanced layouts */
+    width: 100% ; /* adjust the width as needed */
+    /* Add any other styling properties */
+    /*background-color: #C8CBD9;*/
+}
+
+.card-round {
+    border-radius: 10px;
+}
+
+.img-rounded-top {
+    border-top-left-radius: 10px; /* Adjust the value to change the roundness */
+    border-top-right-radius: 10px; /* Adjust the value to change the roundness */
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block; /* Ensures container takes up only as much space as the image */
+}
+
+.fontcontrol{
+    font-family: Poppins, sans-serif; /* Specify the font type */
+    font-weight: 500; /* Specify the font weight (normal) */
+    font-size: 9px; /* Specify the font size */
+    line-height: 5px;
+}
+
+.submit-button-color {
+    background-color: #707FDD;
+    width: 158px;
+    color: white;
+}
+
+.delete-btn-color{
+    background-color: #FEE2E2
+}
+
+.edit-btn-color{
+    background-color: #e6ffe6
+}
+
+.input{
+    line-height: 3.5
+
+}
+
+
+
+.btn-overlay {
+    display: inline-block;
+    width: 65px; /* Set the width to 100 pixels */
+    height: 20px;
+    background-color: #BF40BF  !important;
+    position: absolute;
+    top: 30%;
+    left: 85%;
+    /*top: 182px;*/
+    /*left: 1024px;*/
+    transform: translate(-70%, -70%);
+    background-color: rgba(255, 255, 255, 0.7); /* Optional: Add background color for better readability */
+    padding: 10px; /* Optional: Add padding for better spacing */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+    z-index: 1; /* Ensure the text overlays the image */
+}
